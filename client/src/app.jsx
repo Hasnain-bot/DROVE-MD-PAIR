@@ -55,7 +55,7 @@ const App = () => {
     setCountdown(120);  
 
     setTimeout(() => {
-      const mockCode = "123-456"; 
+      const mockCode = "loading..."; 
       setRes({
         status: true,
         msg: `pair code: ${mockCode}`,
@@ -93,7 +93,7 @@ const App = () => {
     <div className="container">
       <form onSubmit={submit}>
         <BsPerson className="icon" />
-        <h1>PANHWAR-MD-PAIR</h1>
+        <h1>DROVE-MD-PAIR</h1>
         {res.status && (
           <Alert variant={res.is}>
             {res.msg}
@@ -102,7 +102,7 @@ const App = () => {
         <label>ᴱᴺᵀᴱᴿ ᵁᴿ ᴾᴴᴼᴺᴱ ᴺᵁᴹᴮᴱᴿ ᵂᴵᵀᴴ ᶜᴼᵁᴺᵀᴿᵞ ᶜᴼᴰᴱ</label>
         <input
           type="number"
-          placeholder="923096287432"
+          placeholder="923471728690"
           value={ipt}
           onChange={(e) => setIpt(e.target.value)}
         />
